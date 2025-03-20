@@ -1,0 +1,18 @@
+.header-container {
+  margin: 0px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.logo {
+  color: red;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.sign-btn {
+  background-color: rgba(255, 0, 0, 0.897);
+  color: white;
+  padding: 5px 2px;
+  margin: 0px 10px;
+}
