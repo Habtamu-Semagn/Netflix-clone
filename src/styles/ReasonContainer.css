@@ -1,6 +1,22 @@
 .reason-img-container {
-  /* width: 100px; */
-  /* height: 100px; */
-  /* background-image: linear-gradient(to bottom right, green, red); */
-  background-color: linear-gradient(to bottom right, green, red);
+  width: 250px;
+  height: 330px;
+  background-image: linear-gradient(to bottom, #353752, #08080d);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 15px 10px 5px;
+  border-radius: 30px;
+}
+.reason-img-container h2,
+p {
+  margin: 20px 10px;
+}
+.reason-img-container p {
+  margin: 10px 10px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.svg-right {
+  text-align: right;
+  align-self: flex-end;
 }

@@ -1,0 +1,33 @@
+h1,
+p {
+  color: white;
+}
+.trending {
+  padding: 20px 150px 20px 150px;
+  background-color: black;
+}
+.img-container-trend {
+  display: flex;
+  gap: 20px;
+}
+.scroll {
+  display: flex;
+  overflow: auto;
+  gap: 30px;
+  scrollbar-width: none;
+}
+.img-container-trend span {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  height: 110px;
+  cursor: pointer;
+}
+.img-container-trend span:hover {
+  background-color: #383838;
+  user-select: none;
+}

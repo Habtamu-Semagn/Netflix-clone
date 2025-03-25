@@ -1,8 +1,10 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Reason from "./components/Reasons";
-import Trading from "./components/Trading";
+import Trending from "./components/Trending";
 import Head from "./components/Head";
+import Questions from "./components/Questions";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
@@ -10,8 +12,10 @@ function App() {
         <Header />
         <Hero />
       </Head>
-      <Trading />
+      <Trending />
       <Reason />
+      <Questions />
+      <Footer />
     </div>
   );
 }

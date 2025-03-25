@@ -1,3 +1,13 @@
 .reason-container {
-  margin: 0px 150px;
+  padding: 100px 150px;
+  background-color: black;
+}
+.reason-container h2 {
+  margin: 20px 0px;
+}
+.reason-data {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }
